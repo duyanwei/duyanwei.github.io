@@ -1,8 +1,10 @@
 body {
-    position: relative;
+    /*position: relative*/;
     background: white;
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
+    width:1200px;
+    height: 500px;
 }
 
 /* header */
@@ -24,7 +26,7 @@ body {
             font-family: 'Pacifico', cursive;
             display: inline-block;
             height: inherit;
-            left: 3em;
+            left: 5em;
             line-height: inherit;
             margin: 0;
             padding: 0;
@@ -62,7 +64,7 @@ body {
         background: white;
         color: black;
         cursor: default;
-        left: 0;
+        left: 5em;
         line-height: 5em;
         position: relative;
         text-align: left;
@@ -84,7 +86,14 @@ body {
         width: 100%;
         z-index: 10;
     }
-/* sec 5 */
+
+/* sec4 */
+    .sec4-p {
+      line-height: 1.3em;
+    }
+
+
+/* sec5 */
     .sec5-p {
       line-height: 1.3em;
     }
