@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background: gray;
+    background: white;
     margin: 0px;
     padding: 0px;
 }
@@ -59,7 +59,7 @@ body {
 
 /* content */
     .content {
-        background: gray;
+        background: white;
         color: black;
         cursor: default;
         left: 0;
@@ -83,4 +83,8 @@ body {
         top: 3em;
         width: 100%;
         z-index: 10;
+    }
+/* sec 5 */
+    .sec5-p {
+      line-height: 1.3em;
     }
