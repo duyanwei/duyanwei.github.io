@@ -1,99 +1,129 @@
 body {
-    /*position: relative*/;
-    background: white;
-    margin: 0 auto;
+    width:100%;
+    background:white;
+    color:black;
+    top:0px;
+    left:0px;
+    margin: 0px;
     padding: 0px;
-    width:1200px;
-    height: 500px;
+}
+#header {
+    position: fixed;
+    top:0px;
+    left:0px;
+    margin: 0px;
+    padding: 0px;
+    width:80%;
+    height:80px;
+    background-color: #6899D3;
+    z-index: 2;
+}
+#footer {
+    position: relative;
+    top:0px;
+    left:0px;
+    margin: 0px;
+    padding:0px;
+    width:80%;
+    height:30px;
+    background-color: #6899D3;
+    text-align: center;
+}
+#section {
+    position: relative;
+    top:0px;
+    left:0px;
+    margin: 0px;
+    padding: 0px 0px 100px;
+    width:80%;
+    background-color: #F5F8FC;
+}
+hr {
+    position: relative;
+    top:30px;
+    left:0px;
+    margin: 0px;
+    padding: 0px;
+    height:3px;
+    background-color: #6899D3;
+}
+.icon {
+    position: relative;
+    top:0px;
+    left:20%;
+    margin: 0px;
+    padding: 0px;
+    width:30px;
+    height:30px;
+}
+.icon-image {
+    position: relative;
+    top:0px;
+    left:0px;
+    margin: 0px;
+    padding: 0px;
+    width:30px;
+    height:30px;
+    background-color: #6899D3;
+}
+.title {
+    position: relative;
+    top:30px;
+    left:10px;
+    margin: 0px;
+    padding-top: 80px;
+    height:100px;
+}
+.image-block {
+    position: relative;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.image {
+    margin: 0px;
+}
+.image-content {
+    margin: 0px;
+    line-height: 30px;
+}
+.content {
+    position: relative;
+    top:0px;
+    left:40%;
+    width:60%;
+    margin: 0px;
+    line-height: 40px;
+}
+.footer_content {
+    position: relative;
+    top:0px;
+    left:0px;
+    margin: 0px;
+    line-height: 40px;
+}
+#header-1 {
+    position: relative;
+    top:30px;
+    left:30px;
+    margin: 0px;
+    padding: 0px;
+    width:30px;
+    height:80px;
+    font-size: 30px;
+    text-decoration:none;
+    color: white;
+}
+.header-nav {
+    position: relative;
+    top:30px;
+    left:200px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 7px;
+    width:30px;
+    height:80px;
+    font-size: 15px;
+    text-decoration:none;
+    color: white;
 }
 
-/* header */
-    #header {
-      background: #1c1c1c;
-      color: #d5d5d5;
-      cursor: default;
-      height: 5em;
-      left: 0;
-      line-height: 5em;
-      position: fixed;
-      text-align: right;
-      top: 0;
-      width: 100%;
-      z-index: 10001;
-      opacity: 0.9;
-    }
-        #header #logo {
-            font-family: 'Pacifico', cursive;
-            display: inline-block;
-            height: inherit;
-            left: 5em;
-            line-height: inherit;
-            margin: 0;
-            padding: 0;
-            position: absolute;
-            top: 0;
-            color: #e5474b;
-            font-size: 1.75em;
-            text-transform: none;
-            font-weight: normal;
-            padding: 0;
-        }
-            #header #logo: hover {
-                color: rgba(229, 71, 75, 0.75);
-            }
-        #header a {
-            -moz-transition: color 0.2s ease-in-out;
-            -webkit-transition: color 0.2s ease-in-out;
-            -ms-transition: color 0.2s ease-in-out;
-            transition: color 0.2s ease-in-out;
-            display: inline-block;
-            padding-right: 1em;
-            padding-left: 1em;
-            color: #ffffff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: .85em;
-        }
-            #header a: hover {
-                color: rgba(255, 255, 255, 0.75);
-            }
-
-/* content */
-    .content {
-        background: white;
-        color: black;
-        cursor: default;
-        left: 5em;
-        line-height: 5em;
-        position: relative;
-        text-align: left;
-        top: 5em;
-        width: 100%;
-        z-index: 10;
-    }
-
-/* footer */
-    #footer {
-        background: #1c1c1c;
-        color: #d5d5d5;
-        cursor: default;
-        left: 0;
-        line-height: 3em;
-        position: relative;
-        text-align: center;
-        top: 3em;
-        width: 100%;
-        z-index: 10;
-    }
-
-/* sec4 */
-    .sec4-p {
-      line-height: 1.3em;
-    }
-
-
-/* sec5 */
-    .sec5-p {
-      line-height: 1.3em;
-    }

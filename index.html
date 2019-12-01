@@ -1,110 +1,149 @@
 <! DOCTYPE html>
-<html>
-	<!--head-->
+    <html>
+
     <head>
-    	<title>EVAN</title>
+        <title>Yanwei Du</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
 
-
-	<!--body-->
     <body>
-        <!--header-->
-        <header id="header">
-        	<a href="index.html" id="logo">EVAN</a>
-        	<nav id="nav">
-        		<a href="#sec1" id="nav1">BIOGRAPHY</a>
-        		<a href="#sec2" id="nav2">WORK</a>
-        		<a href="#sec3" id="nav3">RESEARCH</a>
-        		<a href="#sec4" id="nav4">PROJECT</a>
-        		<a href="#sec5" id="nav5">PUBLICATION</a>
-        		<a href="#sec6" id="nav6">CONTACT</a>
-        	</nav>
-        </header>
-
-        <!--content-->
-        <section id="sec1" class="content">
-            <h1>Biography</h1>
-            <p class="sec5-p">My research interests include Simultaneous Localization and Mapping(SLAM), Visual Inertial Odometry(VIO), Stereo Visual Odometry, Robotics and Computer Vision. Particularly, I’m engaged in solving state estimation problem of autonomous driving with camera, lidar and IMU, as well as multi-sensor calibration of vehicle.</p>
-            <p class="sec5-p">I'm holding a MS degree in Robotics, Computer and Information Science in University of Pennsylvania. Before that, I received my BS degree from Northeastern University (CHINA). During those time, I have been working on multiple robotics projects, including SLAM, Computer Vision, Motion Tracking and Machine Learning.</p>
-            <p class="sec5-p">I'm now an algorithm engineer at HoloMatic. Inc, focusing on localization, mapping, multi-sensor calibration of autonomous driving.</p>
-            <img src="assets/images/epipolar.jpg">
-        </section>
-        <section id="sec2" class="content">
-            <h1>Work</h1>
-            <p>HoloMatic. Inc (July 2017 ~ Present)</p>
-            <p>Autonomous Driving Group, LeEco. Inc (June 2016 ~ June 2017)</p>
-            <p>Robotics Group, Institute of Deep Learning (IDL), Baidu. Inc (August 2015 ~ May 2016)</p>
-            <p>PRECISE Center, University of Pennsylvania (March 2014 ~ July 2015)</p>
-            <h1>-----------------------------------------------------------</h1>
-        </section>
-        <section id="sec3" class="content">
-            <h1>-----------------------------------------------------------</h1>
-            <h1>RESEARCH</h1>
-            <p>description</p>
-            <h1>-----------------------------------------------------------</h1>
-        </section>
-        <section id="sec4" class="content">
-            <h1>-----------------------------------------------------------</h1>
-            <h1>PROJECT</h1>
-            <p class="sec4-p">Yelp Rating Prediction <br>
-            Trained a prediction model using various machine learning methods
-            including Logistic Regression, SVM, Naive Bayes and Decision Tree
-            to predict the ratings of Yelp restaurant reviews given the review
-            text in a bag-of-words format. </p>
-            <p class="sec4-p">Object Orientation Tracking<br>
-            Implemented an Unscented Kalman Filter to track three dimensional
-            orientation based on the given IMU readings and generated a
-            real-time panoramic image from camera images by estimated
-            orientation.</p>
-            <p class="sec4-p">Gesture Recognition<br>
-            Used IMU readings from gyroscope and accelerometer mounted on a
-            mobile device to train a set of Hidden Markov Models to recognize
-            different arm motion gestures. </p>
-            <p class="sec4-p">Lidar-based SLAM<br>
-            Used lidar and wheel encoder data recorded by a mobile robot to
-            create a planar map of the path followed by the robot and
-            simultaneously localized the robot in that map.</p>
-            <p class="sec4-p">Vision-based Pose and Velocity Estimation of Quadrotor<br>
-            Estimated the pose and velocity of a quadrotor based on images
-            from camera and IMU readings by EKF, used estimated state as
-            feedback to control the quadrotor to follow a pre-defined path. </p>
-            <p class="sec4-p">Multi-robots Map Merging<br>
-            Merged local maps created by five independent mobile robots with
-            GraphSLAM algorithm, technique including front-end local map
-            feature detection and back-end pose graph optimization.</p>
-            <h1>-----------------------------------------------------------</h1>
-        </section>
-        <section id="sec5" class="content">
-            <h1>-----------------------------------------------------------</h1>
-            <h1>PUBLICATION</h1>
-            <p class="sec5-p">
-               N. Bezzo, <strong>Y. Du</strong>, O. Sokolsky, and I. Lee, <br>
-               A Markovian Approach for Attack Resilient Control of Mobile
-               Robotic Systems. <br>
-               In Second International Workshop on Robotic Sensor Networks (RSN), Seattle, Washington, April 13, 2015.
-            </p>
-            <p class="sec5-p">N. Bezzo, J. Weimer, <strong>Y. Du</strong>, O. Sokolsky, S. H. Son, I. Lee, <br>
-               A Stochastic Approach for Attack Resilient UAV Motion Planning. <br>
-	             In 2016 American Control Conference, Boston (MA), July 6-8, 2016
-	          </p>
-            <h1>-----------------------------------------------------------</h1>
-        </section>
-        <section id="sec6" class="content">
-            <h1>-----------------------------------------------------------</h1>
-            <h1>CONTACT</h1>
-            <p>duyanwei0702@gmail.com</p>
-            <h1>-----------------------------------------------------------</h1>
-        </section>
-
-        <!--footer-->
-        <footer id="footer"> 
-        	<p>Copyright &copy: 2018. EVAN</p>
-        </footer>
-
-        <!--script-->
+        <div id="header">
+            <a id="header-1" href="index.html">Yanwei Du</a>
+            <a class="header-nav" href="#biography">BIOGRAPHY</a>
+            <a class="header-nav" href="#education">EDUCATION</a>
+            <a class="header-nav" href="#project">PROJECT</a>
+            <a class="header-nav" href="#publication">PUBLICATION</a>
+            <a class="header-nav" href="#work">WORK</a>
+            <a class="header-nav" href="#contact">CONTACT</a>
+        </div>
+        <div id="section">
+            <div id="biography">
+                <h1 class="title">BIOGRAPHY</h1>
+                <div class="image-block">
+                    <img class="image" src="assets/images/untitled.jpg">
+                    <p class="image-content">
+                        I'm a visual SLAM engineer at HoloMatic. Inc. I'm involved in multiple tasks, including sensor
+                        extrinsic and intrisnic calibration, lidar mapping, visual feature based mapping and
+                        localization, monocular visual inertial odometry.
+                        <br><br>
+                        My research interests include Simultaneous Localization and Mapping(SLAM),
+                        Visual Inertial Odometry(VIO), Stereo Visual Odometry, Robotics and Computer Vision.
+                    </p>
+                </div>
+                <a class="icon" href="https://github.com/duyanwei">
+                    <img class="icon-image" src="assets/images/github.png"></a>
+                <!--
+                    <a class="icon" href="duyanwei0702@gmail.com">
+                    <img class="icon-image" src="assets/images/email.png"></a>
+                -->
+                <a class="icon" href="https://www.linkedin.com/in/yanwei-du-08ba2387">
+                    <img class="icon-image" src="assets/images/linkedin.png"></a>
+            </div>
+            <hr />
+            <div id="education">
+                <h1 class="title">EDUCATION</h1>
+                <p class="content">
+                    2012 - 2014, M.S. in Robotics, <a href="https://www.grasp.upenn.edu/">GRASP Lab</a>, <a
+                        href="https://www.upenn.edu/">University
+                        of
+                        Pennsylvania </a>
+                </p>
+                <p class="content">
+                    2008 - 2012, B.S. in Mechanical Engineering, <a href="http://www.neu.edu.cn/">Northeastern
+                        University</a>
+                </p>
+            </div>
+            <hr />
+            <div id="project">
+                <h1 class="title">PROJECT</h1>
+                <div class="image-block" style="background: #6E8FB1;">
+                    <img class="image" src="assets/images/visual_mapping.gif">
+                    <p class="image-content">
+                        <strong>Title: GPS-aided visual mapping </strong>
+                        <br><br>
+                        Visual mapping with GPS/IMU sensor, techniques including feature detection and
+                        matching,
+                        triangulation, global bundle adjustment, keyframe selection and map management.
+                    </p>
+                </div>
+                <div class="image-block" style="background: #6E8FB1;">
+                    <img class="image" src="assets/images/planning.gif">
+                    <p class="image-content">
+                        <strong>Title: Quadrotor path planning and trajectory generation</Strong>
+                        <br><br>
+                        Given known occupied 3D map, implement an algorithm to plan a obstacle-free
+                        path that connects the start and goal position, and generate feasible trajectory for the
+                        quadrotor to move in limited time.
+                    </p>
+                </div>
+                <div class="image-block" style="background: #6E8FB1;">
+                    <img class="image" src="assets/images/gesture_recognition_HMM.gif">
+                    <p class="image-content">
+                        <strong>Title: Gesture Recognition from IMU data with Hidden-Markov Model </strong>
+                        <br>Description: Using IMU raw readings that are collected from a mobile device to train a
+                        Hidden
+                        Markov Model to
+                        recognize different arm motion gestures by moving the mobile device.
+                    </p>
+                </div>
+                <div class="image-block" style="background: #6E8FB1;">
+                    <img class="image" src="assets/images/lidar_slam.gif">
+                    <p class="image-content">
+                        <strong>Title: 2D Lidar SLAM with Partical Fitler</Strong>
+                        <br> Description: Given wheel encoder and lidar data sampled from a mobile robot when moving in
+                        a building. The goal is to build a map as well as to localize the robot itself in the map.
+                        <br> Figure explanation: gray-> unknown cell, black -> free cell, while -> occupied cell, blue
+                        -> robot trajectory
+                    </p>
+                </div>
+            </div>
+            <hr />
+            <div id="publication">
+                <h1 class="title">PUBLICATION</h1>
+                <p class="content">
+                    <ul type=disc>N. Bezzo, <strong>Y. Du</strong>, O. Sokolsky, and I. Lee, "A Markovian Approach
+                        for Attack Resilient Control of Mobile Robotic Systems." In Second International Workshop on
+                        Robotic Sensor Networks (RSN), Seattle, Washington, April 13, 2015.
+                    </ul>
+                </p>
+                <p class="content">
+                    <ul>N. Bezzo, J. Weimer, <strong>Y. Du</strong>, O. Sokolsky, S. H. Son, I. Lee,
+                        A Stochastic Approach for Attack Resilient UAV Motion Planning.
+                        In 2016 American Control Conference, Boston (MA), July 6-8, 2016 </ul>
+                </p>
+            </div>
+            <hr />
+            <div id="work">
+                <h1 class="title">WORK</h1>
+                <p class="content">
+                    July 2017 ~ Present, <a href="http://www.holomatic.com/">HoloMatic. Inc</a> </p>
+                <p class="content">
+                    June 2016 ~ June 2017, Autonomous Driving Group, LeEco. Inc
+                </p>
+                <p class="content">
+                    August 2015 ~ May 2016, Robotics Group, <a href="http://research.baidu.com/">Institute of Deep
+                        Learning (IDL)</a>>, Baidu. Inc
+                </p>
+                <p class="content">
+                    March 2014 ~ July 2015, <a href="https://precise.seas.upenn.edu/">PRECISE Center</a>, University
+                    of
+                    Pennsylvania
+                </p>
+            </div>
+            <hr />
+            <div id="contact">
+                <h1 class="title">CONTACT</h1>
+                <p class="content">
+                    <img class="icon-image" src="assets/images/email.png">duyanwei0702@gmail.com
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            <p class="footer_content">Copyright &copy: 2019. Yanwei Du</p>
+        </div>
         <script src="assets/js/main.js"></script>
     </body>
-</html>
+
+    </html>

@@ -1,53 +1,69 @@
-var nav1 = document.getElementById('nav1');
-var nav2 = document.getElementById('nav2');
-var nav3 = document.getElementById('nav3');
-var nav4 = document.getElementById('nav4');
-var nav5 = document.getElementById('nav5');
-var nav6 = document.getElementById('nav6');
 
-var resetNav = function() {
-	nav1.style.background='';
-	nav2.style.background='';
-	nav3.style.background='';
-	nav4.style.background='';
-	nav5.style.background='';
-	nav6.style.background='';
+var rezie = function() {
+  var clientWidth = document.body.clientWidth;
+  var clientHeight = document.body.clientHeight;
+  var clientWidthLeft = clientWidth * 0.1 + "px";
 
-  nav1.style.color='#ffffff';
-	nav2.style.color='#ffffff';
-	nav3.style.color='#ffffff';
-	nav4.style.color='#ffffff';
-	nav5.style.color='#ffffff';
-	nav6.style.color='#ffffff';
-};
+  var header = document.getElementById("header");
+  var section = document.getElementById("section");
+  var footer = document.getElementById("footer");
 
-nav1.addEventListener("click", function() {
-	resetNav();
-  nav1.style.background = 'white';
-	nav1.style.color = 'black';
-});
-nav2.addEventListener("click", function() {
-	resetNav();
-	nav2.style.background = 'white';
-	nav2.style.color = 'black';
-});
-nav3.addEventListener("click", function() {
-	resetNav();
-	nav3.style.background = 'white';
-	nav3.style.color = 'black';
-});
-nav4.addEventListener("click", function() {
-	resetNav();
-	nav4.style.background = 'white';
-	nav4.style.color = 'black';
-});
-nav5.addEventListener("click", function() {
-	resetNav();
-	nav5.style.background = 'white';
-	nav5.style.color = 'black';
-});
-nav6.addEventListener("click", function() {
-	resetNav();
-	nav6.style.background = 'white';
-	nav6.style.color = 'black';
-});
+  header.style.left = clientWidthLeft;
+  section.style.left = clientWidthLeft;
+  footer.style.left = clientWidthLeft;
+
+  var blocks = document.getElementsByClassName("image-block");
+  var images = document.getElementsByClassName("image");
+  var contents = document.getElementsByClassName("image-content");
+
+  if (clientWidth > 900) {
+    for (var i = 0; i < images.length; i++) {
+      images[i].style.position = "absolute";
+      images[i].style.left = "10%";
+      images[i].style.width = "25%";
+      images[i].style.top = "5%";
+      // images[i].style.height = images[0].offsetWidth + "px";
+    }
+    for (var i = 0; i < contents.length; i++) {
+      contents[i].style.position = "absolute";
+      contents[i].style.left = "45%";
+      contents[i].style.width = "45%";
+      contents[i].style.top = "10%";
+      // contents[i].style.height = images[0].offsetWidth + "px";
+    }
+    for (var i = 0; i < blocks.length; i++) {
+      blocks[i].style.left = "5%";
+      blocks[i].style.width = "90%";
+      blocks[i].style.top = "10%";
+      blocks[i].style.height =
+          (images[i].offsetHeight > contents[i].offsetHeight
+               ? images[i].offsetHeight
+               : contents[i].offsetHeight) +
+          30 + "px";
+    }
+  } else {
+    for (var i = 0; i < images.length; i++) {
+      images[i].style.position = "relative";
+      images[i].style.left = "20%";
+      images[i].style.width = "60%";
+      images[i].style.top = "10%";
+      // images[i].style.height = images[i].offsetWidth + "px";
+    }
+    for (var i = 0; i < contents.length; i++) {
+      contents[i].style.position = "relative";
+      contents[i].style.left = "20%";
+      contents[i].style.width = "60%";
+      contents[i].style.top = "10%";
+      // contents[i].style.height = images[i].offsetHeight + "px";
+    }
+    for (var i = 0; i < blocks.length; i++) {
+      blocks[i].style.left = "20%";
+      blocks[i].style.width = "60%";
+      blocks[i].style.top = "5%";
+      blocks[i].style.height = "auto";
+    }
+  }
+}
+
+window.onresize = function() { rezie(); };
+rezie();
