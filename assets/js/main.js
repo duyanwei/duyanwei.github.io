@@ -1,5 +1,5 @@
 
-var rezie = function() {
+var resize = function() {
   var clientWidth = document.body.clientWidth;
   var clientHeight = document.body.clientHeight;
   var clientWidthLeft = clientWidth * 0.1 + "px";
@@ -65,5 +65,5 @@ var rezie = function() {
   }
 }
 
-window.onresize = function() { rezie(); };
-rezie();
+window.onresize = function() { resize(); };
+resize();
