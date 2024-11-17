@@ -40,6 +40,19 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* Header and Navigation Bar */
+#site-nav {
+  background-color: #f0f5f5; /* Dark gray for the header */
+  color: black;
+  padding: 10px 20px;
+  position: sticky; /* Keeps the header fixed at the top */
+  top: 0;
+  z-index: 1000;
+  font-size: 1.0em; /* Adjust the size of the header title */
+//   font-family: 'Georgia', serif; /* Use a serif font for elegance */
+  font-weight: bold; /* Make it bold */
+}
+
 .paper-box {
     display: flex;
     justify-content: left;
@@ -106,4 +119,17 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+/* Footer Styling */
+#footer {
+  background-color: #f0f5f5; /* Dark background for contrast */
+  color: black;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 0.9em;
+}
+
+#footer p {
+  margin: 5px 0;
 }

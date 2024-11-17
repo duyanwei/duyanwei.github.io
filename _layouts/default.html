@@ -29,5 +29,14 @@ layout: compress
 
     {% include scripts.html %}
 
+    <!-- Add a footer section -->
+    <div class="masthead">
+      <div class="masthead__inner-wrap">
+        <div id="footer">
+          <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
