@@ -76,24 +76,40 @@ aerial vehicles (UAVs) subject to unreliable sensors measurements.
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Professional Projects
-<!-- 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/VIO/vio.gif' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[**Title**] Visual-Inertial Odometry for Autonomous Driving
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+<!-- [**Date**] *2018.07 - 2019.07* -->
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Role**] Lead Software Engineer
+
+[**Description**]
+The project is designed for autonomous driving vehicles in highway scenarios, where real-time, accurate and robust state estimation is a critical requirement. The system employs a fixed-lag smoothing using iSAM2 with the GTSAM library. The framework incorporates pre-integrated IMU and vehicle speed measurements, addressing the limitations of vision-only systems. It also includes an OpenGL-based visualization tool for monitoring of feature tracks, landmarks, and vehicle trajectories, providing actionable insights into system performance.
 </div>
-</div> -->
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/VIO/vio.gif' alt="sym" width="60%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Title**] Online Camera-IMU Calibration for Autonomous Driving
+
+<!-- [**Date**] *2018.07 - 2019.07* -->
+
+[**Role**] Lead Software Engineer
+
+[**Description**]
+Designed a module for continuous camera-IMU extrinsic calibration, ensuring long-term operational reliability.
+</div>
+</div>
 
 
 # 📖 Education
-- *2022.01 - now*,       PhD in Robotics, Georgia Institute of Technology.
+- *2022.01 - now*,       PhD in Robotics, IRIM, Georgia Institute of Technology.
 - *2012.09 - 2014.05*,   MS in Robotics, GRASP Lab, University of Pennsylvania.
-- *2008.09 - 2012.07*,   BS in Mechanical Engineering, Northeastern University.
+- *2008.09 - 2012.07*,   BS in Mechanical Engineering, Northeastern University (CHINA).
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -103,7 +119,7 @@ aerial vehicles (UAVs) subject to unreliable sensors measurements.
 - *2017.07 - 2021.12*, Senior Software Engineer, HoloMatic. Inc.
 - *2016.06 - 2017.06*, Software Engineer, Autonomous Driving Team, LeEco. Inc.
 - *2015.08 - 2016.05*, Research Engineer, Robotics Team, Institute of Deep Learning (IDL), Baidu. Inc.
-- *2014.06 - 2015.07*, Robotic Research Associate, PRECISE Center, University of Pennsylvania.
+- *2014.06 - 2015.07*, Robotics Specialist, PRECISE Center, University of Pennsylvania.
 
 # 💬 Research Statement
 
