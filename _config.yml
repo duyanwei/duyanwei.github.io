@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Yanwei Du"
 description              : "Visual SLAM Researcher"
-repository               : "YanweiDu/duyanwei.github.io"
+repository               : "duyanwei/duyanwei.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics

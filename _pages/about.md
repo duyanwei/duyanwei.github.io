@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student in Robotics at the Georgia Institute of Technology. My research is to develop efficient SLAM algorithms for robot navigation.
+I am a Ph.D. student in Robotics at the Georgia Institute of Technology. My research is to develop efficient SLAM algorithms for robot autonomy.
 
 Before pursuing my Ph.D., I worked in the Autonomous Driving industry for several years, where I gained extensive experience in leading software engineering efforts and fostering collaboration within cross-functional teams. My contributions spanned multiple advanced projects, including sensor extrinsic and intrinsic calibration, LiDAR-based mapping, visual feature-based mapping and localization, monocular visual-inertial odometry, and Semantic SLAM. These projects were primarily focused on highway scenarios and autonomous valet parking systems, where SLAM accuracy and robustness were critical.
 
 This combination of industrial experience, leadership skills, and academic research equips me with a well-rounded perspective on real-world applications and cutting-edge advancements in robotics and autonomous systems.
 
-My research interests include Visual and Semantic SLAM, Robotics and Computer Vision. Currently, I am focusing on **Task-Driven SLAM to enable Long-Term Robot Autonomy**.
+My research interests include **Visual and Semantic SLAM, Robotics and Computer Vision**. Currently, I am focusing on Task-Driven SLAM to enable Long-Term Robot Autonomy.
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -34,11 +34,37 @@ My research interests include Visual and Semantic SLAM, Robotics and Computer Vi
 
 # 📝 Publications 
 
-<!-- TaskDrivenSLAMBenchmarking -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025 Submitted</div><img src='images/ICRA2025/wpts_0_5.png' alt="sym" width="100%"></div></div>
+<!-- GoodWeights -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2026 Accepted</div><img src='images/ICRA2026/GW_pipeline.JPG' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Title**] Task-Driven SLAM Benchmarking
+[**Title**] Good Weights: Proactive, Adaptive Dead Reckoning Fusion for Continuous and Robust Visual SLAM 
+
+[**Author**] **Yanwei Du**, Jing-Chen Peng, Patricio A. Vela.
+
+[**Description**]
+The Good Weights algorithm described here provides a framework
+to adaptively integrate dead reckoning (DR) with passive
+visual SLAM for continuous and accurate frame-level pose
+estimation. Importantly, it describes how all modules in a
+comprehensive SLAM system must be modified to incorporate
+DR into its design. Adaptive weighting increases DR influence
+when visual tracking is unreliable and reduces when visual
+feature information is strong, maintaining pose track without
+overreliance on DR.
+
+[Paper](https://arxiv.org/abs/2509.22910)&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- [Code](https://github.com/ivalab/task_driven_slam_benchmarking.git)&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!-- [Result](https://github.com/ivalab/task_driven_slam_benchmarking/tree/main/media/results/realworld) -->
+
+</div>
+</div>
+
+<!-- TaskDrivenSLAMBenchmarking -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2025 Accepted</div><img src='images/IROS2025/wpts_0_5.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Title**] Task-Driven SLAM Benchmarking for Robot Navigation
 
 [**Author**] **Yanwei Du**, Shiyu Feng, Carlton G. Cort, Patricio A. Vela.
 
@@ -49,7 +75,31 @@ The benchmarking approach offers a more relevant and accurate assessment of SLAM
 
 [Paper](https://arxiv.org/abs/2409.16573)&nbsp;&nbsp;&nbsp;&nbsp;
 [Code](https://github.com/ivalab/task_driven_slam_benchmarking.git)&nbsp;&nbsp;&nbsp;&nbsp;
-[Result](https://github.com/ivalab/task_driven_slam_benchmarking/tree/main/results/realworld)
+[Result](https://github.com/ivalab/task_driven_slam_benchmarking/tree/main/media/results/realworld)
+
+</div>
+</div>
+
+
+<!-- GoodGraph -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Internal Review</div><img src='images/GoodGraph/GG_selection.JPG' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Internal Review</div><img src='images/GoodGraph/GG_performance.JPG' alt="sym" width="35%"></div></div> -->
+<div class='paper-box-text' markdown="1">
+
+[**Title**] Good Graph: Budget-Aware Bundle Adjustment in Visual SLAM
+
+[**Author**] **Yanwei Du**, Yipu Zhao,  Justin S. Smith, Patricio A. Vela.
+
+[**Description**]
+Good Graph is designed to address the critical challenge of computational cost in Visual SLAM back-end optimization.
+By intelligently capping the problem size while preserving the conditioning of the optimization, 
+it ensures that the back-end remains efficient without sacrificing accuracy. 
+This approach guarantees that the tracking thread receives an up-to-date and accurate map in real time, 
+especially in budget-critical case, thereby enhancing both the accuracy and robustness of the overall Visual SLAM system.
+
+<!-- [Paper](https://arxiv.org/abs/2409.16573)&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!-- [Code](https://github.com/ivalab/task_driven_slam_benchmarking.git)&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!-- [Result](https://github.com/ivalab/task_driven_slam_benchmarking/tree/main/media/results/realworld) -->
 
 </div>
 </div>
@@ -77,12 +127,18 @@ aerial vehicles (UAVs) subject to unreliable sensors measurements.
 
 # 📝 Professional Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/VIO/vio.gif' alt="sym" width="60%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/VIO/VIO.gif' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<!-- <div class="paper-box">
+  <div class="paper-box-images">
+    <img src="images/VIO/VIO.gif" alt="sym" width="20%" />
+    <img src="images/VIO/VIO_fg.jpg" alt="sym2" width="30%" />
+  </div>
+<div class="paper-box-text" markdown="1"> -->
 [**Title**] Visual-Inertial Odometry for Autonomous Driving
 
-<!-- [**Date**] *2018.07 - 2019.07* -->
+[**Date**] *2018.07 - 2019.07*
 
 [**Role**] Lead Software Engineer
 
@@ -91,17 +147,17 @@ The project is designed for autonomous driving vehicles in highway scenarios, wh
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/VIO/vio.gif' alt="sym" width="60%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/VIO/VIO_camera_imu_calib.jpg' alt="sym" width="40%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Title**] Online Camera-IMU Calibration for Autonomous Driving
 
-<!-- [**Date**] *2018.07 - 2019.07* -->
+[**Date**] *2018.07 - 2019.07*
 
 [**Role**] Lead Software Engineer
 
 [**Description**]
-Designed a module for continuous camera-IMU extrinsic calibration, ensuring long-term operational reliability.
+Designed an extrinsic-factor module for continuous camera–IMU calibration in a VIO system, improving long-term robustness and reliability. To mitigate observability limitations in VIO, extrinsic factors are actively monitored and gated during optimization to maintain globally consistent estimates.
 </div>
 </div>
 
@@ -125,9 +181,9 @@ Designed a module for continuous camera-IMU extrinsic calibration, ensuring long
 
 Simultaneous Localization and Mapping (SLAM) has long been a cornerstone of robotics research, with significant advancements focusing on achieving sub-millimeter accuracy in mapping and localization. However, for robots executing real-world tasks, **Repeatability**, **Reliability**, and **Task Success** take precedence over absolute accuracy. This shift in focus necessitates a paradigm change in SLAM research: from accuracy-driven designs to task-driven SLAM systems tailored to specific robotic applications.
 
-The research direction lies in designing hierarchical, task-driven systems that dynamically adapt their performance to the demands of the task. This hierarchical design incorporates multiple estimation modules optimized for different objectives, including: 
-1) Topological Localization: Providing high-level, coarse-grained location estimates for efficient long-range navigation and situational awareness.
-2) Local Environment Sensing: Offering detailed, localized feedback for tasks requiring high accuracy, such as obstacle avoidance or manipulation.
+My research direction lies in designing **hierarchical, task-driven** systems that dynamically adapt their performance to the demands of the task. This hierarchical design incorporates multiple estimation modules optimized for different objectives, including: 
+1) **Topological Localization**: Providing high-level, coarse-grained location estimates for efficient long-range navigation and situational awareness.
+2) **Local Environment Sensing**: Offering detailed, localized feedback for tasks requiring high accuracy, such as obstacle avoidance or manipulation.
 By combining these modules, the system can achieve an adaptive balance between robustness and efficiency while maintaining bounded computational costs. 
 
 This task-driven SLAM framework is a step toward building robust, scalable systems capable of long-term autonomy. It ensures that the system’s design is inherently tied to the tasks it performs, allowing for practical, reliable operation across diverse environments and use cases. My research aims to explore and implement this novel paradigm, advancing the capabilities of robots to operate seamlessly in dynamic, task-oriented scenarios.
