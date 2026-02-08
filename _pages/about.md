@@ -25,6 +25,13 @@ This combination of industrial experience, leadership skills, and academic resea
 
 My research interests include **Visual and Semantic SLAM, Robotics and Computer Vision**. Currently, I am focusing on Task-Driven SLAM to enable Long-Term Robot Autonomy.
 
+<!-- <span style="color:#1f77b4; font-weight:600;"> -->
+<span style="color:#FF0000; font-weight:600;">
+I am seeking research internship positions for Summer and Fall 2026, with a focus on robotics and computer vision. 
+</span>
+I would be happy to discuss potential research opportunities or collaborations.
+
+
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 <!-- 
