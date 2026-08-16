@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yanwei Du"
-description              : "Visual SLAM Researcher"
+description              : "Robotics Researcher"
 repository               : "duyanwei/duyanwei.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -28,7 +28,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=iyo0PJ4AAAAJ&hl=en"
-  email            : "duyanwei0702@gmail.com"
+  email            : "duyanwei2014@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "duyanwei"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
