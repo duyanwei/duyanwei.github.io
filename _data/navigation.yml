@@ -24,8 +24,8 @@ main:
   - title: "Research Statement"
     url: "/#-research-statement"
 
-  - title: "Resume"
-    url: "/#-resume"
+  # - title: "Resume"
+  #   url: "/#-resume"
 
   - title: "Robotic Platforms"
     url: "/#-robotic-platforms"
